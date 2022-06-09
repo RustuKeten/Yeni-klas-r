@@ -10,6 +10,7 @@ body{
     height: 100vh;
     background: rgb(31, 194, 194);
     background-image: url(./background.jpg);
+}
 .container{
     width: 40%;
     top: 50%;

@@ -25,14 +25,14 @@ body{
 h1{
     margin-top: 20px;
     color: rgb(21, 21, 26);
+    text-shadow: sandybrown;
     justify-content: center;
     display: flex;
-    opacity: 0.8;
     
 }
 #ts1{
     margin-top: 20px;
-    color: rgb(24, 24, 27);
+    color: #910707;;
     justify-content: center;
     display: flex;
     opacity: 0.8;
@@ -57,7 +57,7 @@ h1{
 }
 #addTask input:focus{
     outline: none;
-    border-color: #0d75ec;
+    border-color: #061a31;
 }
 #addTask button{
     position: relative;
@@ -69,7 +69,8 @@ h1{
     width: 20%;
     height: 45px;
     border-radius: 10px;
-    background-color: #4d95e7;
+    background-color: #910707;
+    color: #c5e1e6;
     
 }
 
@@ -107,7 +108,7 @@ h1{
  }
 
  .list button{
-    background-color: #4059ad;
+    background-color: #910707;
     color: #ffffff;
     border: none;
     cursor: pointer;

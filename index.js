@@ -28,13 +28,13 @@ addBtn.addEventListener("click", () => {
 
   }
 });
-var tarih = new Date();
-var yil = tarih.getFullYear();
-var ay = tarih.getMonth();
-var gun = tarih.getDay();
-var saat = tarih.getHours();
-var dakika = tarih.getMinutes();
-var saniye = tarih.getSeconds();
-let haş2 = document.querySelector("h2");
-haş2.innerHTML +=
-  gun + "/" + ay + "/" + yil +"  " + saat + ":" + dakika + ":" + saniye;
+let current = new Date();
+var yil = current.getFullYear();
+var ay = current.getMonth()+1;
+var gun = current.getDay()+5;
+var saat = current.getHours();
+var dakika = current.getMinutes();
+var saniye = current.getSeconds();
+
+let time = document.querySelector("#ts1");
+time.innerHTML+= gun + "/" + ay + "/" + yil +"  " + saat + ":" + dakika + ":" + saniye;

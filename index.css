@@ -15,7 +15,7 @@ body{
     width: 40%;
     top: 50%;
     left: 50%;
-    background:white;
+    /* background:white; */
     position: absolute;
     transform: translate(-50%,-50%);
     border-radius: 10px;
@@ -93,10 +93,19 @@ h1{
      padding: 5px 10px;
      display: flex;
  }
- .list span{
+ .list input{
+     position: relative;
+     height: 50px;
+     width: 300px;
+     border: none;
+     background:none;
      font-size: 15px;
-     font-weight: 400px;
+     
  }
+ .list input{
+     outline: none;
+ }
+
  .list button{
     background-color: #4059ad;
     color: #ffffff;
@@ -107,3 +116,10 @@ h1{
     width: 40px;
     border-radius: 10px;
  }
+
+.listInput{
+    width: 180px;
+}
+.listInput .cizgi{
+    text-decoration: line-through;
+}

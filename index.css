@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: rgb(31, 194, 194);
+    background-image: url(./background.jpg);
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background:white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    min-width: 450px;
+    min-height: 100px;
+}
+h1{
+    margin-top: 20px;
+    color: rgb(62, 62, 236);
+    justify-content: center;
+    display: flex;
+    opacity: 0.8;
+    
+}
+#ts1{
+    margin-top: 20px;
+    color: blue;
+    justify-content: center;
+    display: flex;
+    opacity: 0.4;
+    
+}
+#addTask{
+    position: relative;
+    padding: 30px 20px;
+
+}
+#addTask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #833f3f;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #e0e3e4;
+
+}
+#addTask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#addTask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #4d95e7;
+    
+}
+
+#lists{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+ .list{
+     border-radius: 10px;
+     align-items: center;
+     justify-content: space-between;
+     border: 1px solid #939697;
+     cursor: pointer;
+     background-color: #c5e1e6;
+     height: 50px;
+     margin-bottom: 8px;
+     padding: 5px 10px;
+     display: flex;
+ }
+ .list span{
+     font-size: 15px;
+     font-weight: 400px;
+ }
+ .list button{
+    background-color: #4059ad;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 10px;
+ }
